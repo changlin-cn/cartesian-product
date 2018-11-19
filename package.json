@@ -1,8 +1,8 @@
 {
   "name": "cartesian-product-fn",
-  "version": "0.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "0.0.1",
+  "description": "cartesian product",
+  "main": "dist/index.js",
   "scripts": {
     "test": "jest",
     "build": "babel src -d dist",
