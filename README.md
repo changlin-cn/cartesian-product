@@ -1,1 +1,211 @@
 # cartesian-product
+# Usage
+```javascript
+// npm install cartesian-product-fn --save
+var cartesianProduct = require("cartesian-product-fn").default;
+
+console.log(cartesianProduct({ a: [1, 2, 3], b: [4, 5, 6] }));
+/*
+[ [ 1, 4 ],
+  [ 1, 5 ],
+  [ 1, 6 ],
+  [ 2, 4 ],
+  [ 2, 5 ],
+  [ 2, 6 ],
+  [ 3, 4 ],
+  [ 3, 5 ],
+  [ 3, 6 ] ]
+*/
+
+console.log(
+  cartesianProduct([
+    [1, 2, 3],
+    ["s", "m", "l", "xl"],
+    ["yellow", "red", "white"]
+  ])
+);
+/*
+[
+  [
+    1,
+    "s",
+    "yellow"
+  ],
+  [
+    1,
+    "s",
+    "red"
+  ],
+  [
+    1,
+    "s",
+    "white"
+  ],
+  [
+    1,
+    "m",
+    "yellow"
+  ],
+  [
+    1,
+    "m",
+    "red"
+  ],
+  [
+    1,
+    "m",
+    "white"
+  ],
+  [
+    1,
+    "l",
+    "yellow"
+  ],
+  [
+    1,
+    "l",
+    "red"
+  ],
+  [
+    1,
+    "l",
+    "white"
+  ],
+  [
+    1,
+    "xl",
+    "yellow"
+  ],
+  [
+    1,
+    "xl",
+    "red"
+  ],
+  [
+    1,
+    "xl",
+    "white"
+  ],
+  [
+    2,
+    "s",
+    "yellow"
+  ],
+  [
+    2,
+    "s",
+    "red"
+  ],
+  [
+    2,
+    "s",
+    "white"
+  ],
+  [
+    2,
+    "m",
+    "yellow"
+  ],
+  [
+    2,
+    "m",
+    "red"
+  ],
+  [
+    2,
+    "m",
+    "white"
+  ],
+  [
+    2,
+    "l",
+    "yellow"
+  ],
+  [
+    2,
+    "l",
+    "red"
+  ],
+  [
+    2,
+    "l",
+    "white"
+  ],
+  [
+    2,
+    "xl",
+    "yellow"
+  ],
+  [
+    2,
+    "xl",
+    "red"
+  ],
+  [
+    2,
+    "xl",
+    "white"
+  ],
+  [
+    3,
+    "s",
+    "yellow"
+  ],
+  [
+    3,
+    "s",
+    "red"
+  ],
+  [
+    3,
+    "s",
+    "white"
+  ],
+  [
+    3,
+    "m",
+    "yellow"
+  ],
+  [
+    3,
+    "m",
+    "red"
+  ],
+  [
+    3,
+    "m",
+    "white"
+  ],
+  [
+    3,
+    "l",
+    "yellow"
+  ],
+  [
+    3,
+    "l",
+    "red"
+  ],
+  [
+    3,
+    "l",
+    "white"
+  ],
+  [
+    3,
+    "xl",
+    "yellow"
+  ],
+  [
+    3,
+    "xl",
+    "red"
+  ],
+  [
+    3,
+    "xl",
+    "white"
+  ]
+]
+*/
+```
