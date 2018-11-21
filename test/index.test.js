@@ -12,7 +12,7 @@ test("test1.length", () => {
   expect(test1.length).toBe(108);
 });
 test("test2.length", () => {
-  expect(test2.length).toBe(31);
+  expect(test2.length).toBe(3);
 });
 test("test3.length", () => {
   expect(test3.length).toBe(9);

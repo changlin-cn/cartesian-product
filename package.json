@@ -1,12 +1,13 @@
 {
   "name": "cartesian-product-fn",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "cartesian product",
   "main": "dist/index.js",
   "scripts": {
     "test": "jest",
     "build": "babel src -d dist",
-    "precommit": "npm run test & npm run build & git add ./"
+    "pb":"npm run test && npm run build && npm publish",
+    "precommit": "npm run test"
   },
   "repository": {
     "type": "git",
