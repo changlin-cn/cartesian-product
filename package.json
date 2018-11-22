@@ -1,6 +1,6 @@
 {
   "name": "cartesian-product-fn",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "cartesian product",
   "main": "dist/index.js",
   "scripts": {
